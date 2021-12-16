@@ -1,0 +1,16 @@
+{
+  "name": "horizonworlds_code_reference",
+  "version": "0.1",
+  "description": "Horizon Worlds Code Reference",
+  "main": "index.js",
+  "repository": "git@github.com:gerardcuadras/horizonworlds_code_reference.git",
+  "author": "Gerard Cuadras <me@gerardcuadras.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.27"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
